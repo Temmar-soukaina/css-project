@@ -1,12 +1,15 @@
 
 
-body, html {
+body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
   background-color: #116f74;
   color: #333;
 }
+ img { 
+  margin: 0% 35%;
+ } 
 
 
 .navbar {
@@ -15,7 +18,7 @@ body, html {
 }
 
 .navbar-menu {
-  list-style-type: style  ;
+  list-style-type: none  ;
   display: flex;
   justify-content: center;
   gap: 2rem;
@@ -24,15 +27,20 @@ body, html {
 }
 
 .navbar-menu li a {
-  color: rgb(46, 28, 134);
+  color: rgb(255, 255, 255);
   text-decoration: none;
   font-weight: bold;
+  border-radius: 20px
+  ;
 }
 
 .navbar-menu li a:hover {
   text-decoration: underline;
+  background-color: #301f92;
 }
-
+a{ 
+  padding: 15px;
+}
 
 .header {
   text-align: center;
